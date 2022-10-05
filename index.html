@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" type="text/css" href="./styles.css">
+
+  
+  <title>Intro component with sign up form</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+</head>
+<body>
+  <div class="main">
+    <div class="section">
+      <div class="container">
+        <div class="title">Learn to code by watching others</div>
+        <div class="sub-title">See how experienced developers solve problems in real-time. Watching scripted tutorials is great, 
+          but understanding how developers think is invaluable. </div>
+        </div>
+      </div>
+      <div class="section">
+        <div class="container">
+          <div class="try-container box-s"><span>Try it free 7 days</span> then $20/mo. thereafter</div>
+          <div class="form-container box-s">
+            <form id="form">
+            <div class="input">
+              <input type="text"  id="first-name" placeholder="First Name">
+              <div class="error-msg">First Name cannot be empty</div>
+              <div class="error-icon"><img src="/images/icon-error.svg" alt="error" /></div>
+            </div>
+            <div class="input">
+              <input type="text"  id="last-name" placeholder="Last Name">
+              <div class="error-msg">Last Name cannot be empty</div>
+              <div class="error-icon"><img src="/images/icon-error.svg" alt="error" /></div>
+            </div>
+            <div class="input">
+              <input type="email" id="email" placeholder="Email Address">
+              <div class="error-msg">Email cannot be empty</div>
+              <div class="error-icon"><img src="/images/icon-error.svg" alt="error" /></div>
+              <div class="error-msg">Looks like this is not an email</div>
+            </div>
+            <div class="input">
+              <input type="password"  id="password" placeholder="Password">
+              <div class="error-msg">Password cannot be empty</div>
+              <div class="error-icon"><img src="/images/icon-error.svg" alt="error" /></div>
+            </div>
+              <input type="submit" id="submit" value="Claim your free trial">
+            </form>
+            <div class="terms">By clicking the button, you are agreeing to our <span>Terms and Services</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
